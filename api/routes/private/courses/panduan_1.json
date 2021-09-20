@@ -1,0 +1,328 @@
+{
+  "premium": true,
+  "data": {
+    "0": [
+      { "tag": "h1", "heading": "Pengantar Trading" },
+      {
+        "tag": "p",
+        "paragraph": "Pertama-tama kita harus tahu, 'mengapa belajar trading penting di zaman sekarang ini?'"
+      },
+      {
+        "tag": "p",
+        "paragraph": "Masyarakat kita secara pasif diatur oleh 'kebebasan' (contohnya adalah pasar bebas atau pilihan kita). Jadi, jika sesuatu yang kecil mengendalikan kita dan memiliki efek baik atau buruk pada kita, kita akan segera terpengaruh oleh efek itu."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Misalnya, anggaplah sesuatu terjadi di pasar keuangan AS. Dalam hal itu, kebutuhan keuangan Indonesia juga akan merasakan dampak dari kejadian tersebut di pasar keuangan AS."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Contoh lain adalah bahwa pekerjaan kita akan bergantung pada keuntungan perusahaan di dunia yang diatur oleh kapitalisme dan perusahaan bebas. Perusahaan membawa semua benda di sekitar kita karena mereka melihat peluang untuk mendapatkan keuntungan dengan memberikannya kepada kita. Namun, dibutuhkan orang-orang seperti kita yang bekerja dalam perancangan, pemasaran, pengembangan, dll. Karena pekerjaan, orang-orang ini harus mendapatkan gaji, dan gaji menjadi daya konsumsi orang-orang ini. Pengeluaran untuk memenuhi kebutuhan konsumsi yang kuat menghasilkan lebih banyak manfaat ekonomi, yaitu pasar keuangan dan perusahaan yang dijelaskan di atas."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tetapi gaji jarang membuka jalan menuju kebebasan finansial bagi orang-orang seperti kita. Ada banyak cara untuk mencapai kebebasan finansial, salah satunya dengan melakukan trading dan menabung. Kali ini, kita akan belajar trading, dimulai dari dasar-dasar trading."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Dalam dunia trading, kita tidak mengatakan 'beli atau jual' tetapi menyebutnya 'go long or go short' (namun kita tetap akan menggunakan istilah 'beli atau jual'). Kemudian, sama seperti perdagangan lainnya, jika seseorang membeli, seseorang juga menjual. Orang yang berjualan berpikir: 'dengan menjual sekarang, saya akan mendapat lebih banyak keuntungan daripada dengan menjualnya nanti'. Orang yang membeli berpikir: 'dengan membeli sekarang, saya akan mendapatkan lebih banyak keuntungan daripada membeli nanti'. Pikiran-pikiran ini adalah hal yang aneh karena keduanya saling bertentangan."
+      }
+    ],
+    "1": [
+      { "tag": "h1", "heading": "Gambaran Pasar Saham" },
+      {
+        "tag": "p",
+        "paragraph": "Setiap hari, sejumlah besar uang berpindah tangan di berbagai pasar, salah satunya adalah pasar saham. Dan menghasilkan uang dalam jumlah besar. Tapi apa yang mendorong pasar keuangan ini menjadi seperti itu? Bagaimana cara kerja pasar saham? Lalu bagaimana kita membangun dan mengelola portofolio yang seimbang?"
+      },
+      {
+        "tag": "p",
+        "paragraph": "Untuk itu, terlebih dahulu kita harus memahami apa itu pasar saham."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita mulai dengan pasar saham. Setiap hari di bursa, bursa menyatukan sekelompok individu baru dengan harapan dan jumlah uang yang berbeda—kualitas produk untuk dijual dan lainnya menghasilkan sedikit perubahan harga setiap hari."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Melalui komputer dan teknologi, bursa saham memungkinkan pelelangan simultan untuk diproses pada setiap saham yang diperdagangkan pada kesepakatan setiap detik penjualan dibuka. Ketika pembeli dan penjual menyepakati harga, terjadilah perdagangan. Namun, ketika pembeli dan penjual tidak setuju pada harga, transaksi tidak terjadi. Namun, komputer menunjukkan berapa biaya yang akan dibayar pembeli dan berapa biaya yang akan dijual penjual. Bursa saham menyediakan lingkungan yang nyaman yang memungkinkan pembeli dan penjual bertindak cepat dan mudah. Kecanggihan dan kecepatan teknologi dan perangkat lunak yang terus meningkat membantu semua investor dan pemegang saham menerima harga terbaru dan segera memulai perdagangan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Lalu, bagaimana cara kerja perdagangan saham?"
+      },
+      {
+        "tag": "p",
+        "paragraph": "Cara kerjanya adalah ketika kita melakukan pemesanan dengan sebuah broker saham, broker saham tersebut akan mengirimkan permintaan kita ke salah satu bursa untuk melihat berapa harga terbaiknya. Harga yang akan dibayar pembeli disebut harga penawaran (bid), dan harga yang ingin dijual penjual adalah harga permintaan (ask). Jadi, misalkan kita siap menerima harga. Dalam hal ini, broker kita akan mengirimkan Order pada harga pasar, sehingga Pesanan kita akan diisi dengan harga terbaik saat mencapai bursa."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Jika kita membeli saham, broker akan memenuhi Pesanan kita dengan harga yang diminta penjual. Dan jika kita menjual saham, broker akan menyelesaikan Pesanan kita dengan harga yang ditawar pembeli."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Sistem seperti ini sangat efisien, dan perbedaan antara harga bid dan ask sangat kecil."
+      }
+    ],
+    "2": [
+      { "tag": "h1", "heading": "IPO: Kesempatan untuk Bertumbuh" },
+      {
+        "tag": "p",
+        "paragraph": "Penting untuk membedakan antara saham apa yang diperdagangkan pada penjualan dan yang tidak, dan juga mengapa."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Sebagian besar perusahaan adalah milik pribadi, dan mereka tidak berdagang di bursa, misalnya, toko-toko kecil di dekat rumah kita. Mereka semua biasanya perusahaan kecil yang dimiliki langsung oleh pendiri atau pemilik. Tetapi ketika perusahaan tumbuh, mereka membutuhkan uang tambahan untuk tumbuh. Dan salah satu cara yang bisa mereka lakukan adalah dengan menjual sebagian perusahaan kepada publik. Ada beberapa cara untuk menjualnya, yaitu dengan modal ventura atau angel investor (malaikat bisnis). Modal ventura adalah pembiayaan dari penyertaan modal pada suatu perusahaan kecil oleh suatu perusahaan ekuitas swasta untuk jangka waktu tertentu. Angel investor adalah orang kaya yang memberikan dukungan keuangan kepada perusahaan kecil ini."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tapi misalkan sebuah perusahaan kecil berkembang sangat cepat dan membutuhkan banyak uang. Dalam hal ini, perusahaan ekuitas swasta atau investor malaikat akan kesulitan menyediakan dana. Jadi, perusahaan kecil perlu melakukan IPO (Initial Public Offering). IPO adalah ketika sebuah perusahaan go public dan meminta bank atau broker untuk menjual sahamnya, yang merupakan kesempatan pertama bagi publik untuk membeli saham di perusahaan tersebut. Ketika kita membeli saham dari IPO, kita membeli langsung dari perusahaan yang menggunakan dana hasil IPO untuk rencana ekspansinya."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Perusahaan akan tetap menjadi entitas swasta sampai IPO perusahaan. Selain itu, IPO tidak terjadi begitu saja. Pertama, perusahaan harus memiliki rekam jejak yang mengesankan, menampilkan keuntungan yang baik, dan mengelola ancaman pendapatan di masa depan. Perlu diingat, ketika sebuah perusahaan IPO, kita memiliki sedikit jaminan bahwa harga IPO-nya akan stabil atau naik."
+      }
+    ],
+    "3": [
+      { "tag": "h1", "heading": "Siklus Bisnis di Pasar Saham" },
+      {
+        "tag": "p",
+        "paragraph": "Kita sudah tahu apa itu pasar saham dan apa peran pasar saham. Sekarang pertanyaannya adalah, bagaimana harga saham dan ekonomi bergerak bersama? Oleh karena itu, kita perlu memahami siklus bisnis (hal ini bertujuan untuk memudahkan kita mengetahui posisi kita dalam siklus bisnis secara keseluruhan)."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Memahami siklus bisnis relatif mudah, tetapi memprediksinya hampir tidak mungkin. Misalnya, ekonomi tampaknya kuat untuk sementara waktu. Di sini, setiap orang memiliki pekerjaan. Selain itu, kita juga mendengar tentang pasar saham yang menjual sahamnya dengan harga tinggi dan konsumen berbelanja dengan bebas (ini disebut puncak). Tapi, kita mendengar tentang perusahaan yang bangkrut. Ada PHK, penyitaan, dan pembekuan dana (ini disebut sebagai lembah). Seperti badai yang sempurna, siklus bisnis adalah produk dari banyak kompetensi yang datang bersamaan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Seperti yang kita duga, sama seperti ekonomi bergerak dalam siklus, begitu pula pasar saham. Sebagai investor, pahami puncak dan lembah ini dan terimalah bahwa itu terus terjadi."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tetapi kapan siklus bisnis akan mencapai puncak dan lembahnya? Berinvestasi sebelum puncak bisa sangat mahal. Berinvestasi di bagian lembah ini bisa sangat menguntungkan. Mengetahui di mana kita berada dalam siklus bisnis secara keseluruhan sangat penting sebagai investor. Selain itu, pasar saham bergerak sebelum siklus bisnis karena harga saham didasarkan pada pendapatan masa lalu dan ekspektasi pendapatan masa depan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita mungkin pernah mendengar istilah seperti pasar bull and bear. Pasar bull and bear memainkan peran penting dalam memperpanjang atau mengontrak siklus bisnis. Sebagian besar investor merasa sangat optimis tentang siklus bisnis saat ini, pasar saham, dan kondisi ekonomi secara keseluruhan di pasar bull. Pasar bear menunjukkan bahwa kepercayaan investor sedang jatuh (artinya investor menganggap bahwa siklus bisnis saat ini sedang atau dalam penurunan). Banyak investor mundur untuk menonton di pasar bear, seperti kembali ke posisi penonton dan menjual saham mereka. Investor takut prospek investasi mereka di pasar bear, dan ketika uang meninggalkan pasar, harga saham jatuh."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Sebagai investor, kita perlu mengetahui cara berinvestasi dengan benar menggunakan tren bull atau bear. Jadi, begitu kita memahami tren bull atau bear, kita memperlakukan tren sebagai teman kita, dan jika kita berada di pasar bull dan tren naik, maka inilah saat yang tepat untuk membeli rendah dan menjual tinggi. Tren masih menjadi teman kita di pasar bear, dan ada cara untuk menghasilkan uang saat harga saham turun. Persepsi belaka bahwa pasar akan bearish bukanlah prediktor bencana. Triknya adalah mengetahui kapan seseorang datang dan bereaksi sesuai dengan itu. Jika seseorang dapat belajar mengantisipasi tren pasar sebelum terjadi, kita akan menjadi investor yang sangat sukses. Tapi hati-hati karena ini sulit untuk dikuasai. Tidak ada rahasia sederhana untuk melakukannya dengan benar setiap saat. Pasar mengharuskan kita untuk benar dua kali; pertama, ketika kita membeli saham dengan harga rendah, dan kedua ketika kita menjualnya kembali dengan harga lebih tinggi. Banyak investor mengalami kesulitan hanya membeli rendah, apalagi menjual tinggi. Mungkin ada biaya untuk mengambil tindakan yang salah."
+      }
+    ],
+    "4": [
+      { "tag": "h1", "heading": "Harga Saham: Tinjauan Sistematis" },
+      {
+        "tag": "p",
+        "paragraph": "Saatnya mengaplikasikan ilmu yang telah didapat dan memahami informasi keuangan yang beredar di internet."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Ketika kita membuka surat kabar keuangan, sejumlah besar informasi datang dengan setiap saham. Setiap saham memiliki simbol ticker yang unik untuk identifikasi. Jadi, ketika kita mencoba untuk meneliti suatu saham, mendapatkan harga saham, atau melakukan order perdagangan, pertama-tama kita harus mengetahui simbol ticker dari saham yang bersangkutan. Simbol ticker saham biasanya panjangnya satu sampai lima huruf. Mereka terkadang berisi titik atau tanda hubung untuk menunjukkan kelas saham yang berbeda. Contohnya adalah FB untuk Facebook."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Satu hal yang sering dikutip di surat kabar keuangan adalah apa yang disebut harga pembukaan. Harga pertama di mana saham diperdagangkan disebut harga pembukaan, yaitu harga saat pasar dibuka pagi ini. Ingatlah bahwa saham tidak dibuka pada harga yang sama dengan yang mereka tutup sehari sebelumnya."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita juga memiliki informasi volume. Informasi ini menunjukkan jumlah saham yang telah diperdagangkan hari ini. Beberapa saham dapat menjual jutaan persentase setiap hari. Lainnya hanya mengubah beberapa, terkadang beberapa ratus, atau bahkan nol saham per hari (ini berarti tidak ada perdagangan yang terjadi)."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Ada informasi lain, seperti harga terakhir, yang merupakan harga terbaru dari saham yang diperdagangkan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita biasanya menemukannya di platform perdagangan online. Kita menemukan penawaran dan permintaan seperti yang dijelaskan sebelumnya. Penawaran adalah harga tertinggi yang saat ini bersedia dibayar oleh pembeli untuk sebuah saham. Permintaan adalah harga terendah yang sekarang ingin dijual oleh penjual."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Lalu ada informasi size, yaitu jumlah saham untuk harga penawaran atau permintaan. Kita juga akan memiliki informasi seperti terendah dalam 52 minggu terakhir. Bidang ini menunjukkan harga tertinggi dan terendah yang dimiliki saham selama 52 minggu terakhir, memungkinkan kita untuk membandingkan harga saat ini dengan kisaran 52 minggu."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Ada juga grafik saham, yang tersedia dalam berbagai format. Selain itu, ada bidang dividen (pembayaran tunai yang dilakukan beberapa perusahaan untuk mengembalikan keuntungan kepada pemegang sahamnya). Jika kita memiliki saham yang cukup, kita bisa mendapatkan penghasilan yang tinggi hanya dari dividen saham kita. Kita juga memiliki bidang seperti hasil dividend yield (ini adalah ukuran penting dari pengembalian saham). Cara menghitungnya adalah jumlah dividen tahunan dibagi dengan harga saham saat ini. Misalkan sebuah perusahaan membayar $2,00 sebagai dividen atas sahamnya selama beberapa tahun terakhir. Harga sahamnya saat ini adalah $40. Maka dividend yield perusahaan adalah 2/40 = 0,05 atau 5%."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Informasi yang banyak mendapat perhatian adalah EPS atau Earning Per Share (kita bisa menganggap EPS sebagai keuntungan per saham). EPS dihitung dengan membagi pendapatan tahunan terbaru perusahaan dengan jumlah saham yang beredar."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Satu informasi lain yang biasanya ditampilkan adalah apa yang disebut beta. Itu juga ditulis menggunakan huruf Yunani senama, beta. Beta adalah ukuran volatilitas saham dibandingkan dengan pasar. Jika beta adalah 1, itu berarti saham bergerak dengan pasar. Lebih besar dari satu menunjukkan bahwa saham berfluktuasi lebih cepat. Beta antara nol dan satu berarti bahwa saham bergerak lebih jarang daripada pasar. Beta negatif berarti saham bergerak ke arah yang berlawanan dari pasar."
+      }
+    ],
+    "5": [
+      { "tag": "h1", "heading": "Ulasan Singkat tentang Order/Pesanan" },
+      {
+        "tag": "p",
+        "paragraph": "Ada beberapa jenis pesanan yang bisa kita gunakan saat kita trading, yaitu:"
+      },
+      { "tag": "p", "paragraph": "1. Market Order" },
+      {
+        "tag": "p",
+        "paragraph": "Market Order adalah instruksi kepada broker untuk mengeksekusi beli atau jual segera pada harga pasar. Harga pasar bisa berapa saja, tetapi kita menginstruksikan broker kita untuk membeli atau menjual. Broker harus menempatkan Pesanan kita secara langsung untuk pembeli atau penjual lain yang bersedia untuk saham yang ingin kita jual atau beli, baik sebagai pembeli atau penjual. Banyak dari mereka dilakukan dengan cepat. Broker akan selalu melakukan pembelian pada harga permintaan terbaik, dan broker akan mendorong penjualan kita pada harga penawaran terbaik."
+      },
+      { "tag": "p", "paragraph": "2. Limit Order" },
+      {
+        "tag": "p",
+        "paragraph": "Saat kita melakukan limit order, kita meminta broker kita untuk membeli saham hanya untuk satu atau menjual saham tidak kurang dari harga yang kita terapkan."
+      },
+      { "tag": "p", "paragraph": "3. Stop Order" },
+      {
+        "tag": "p",
+        "paragraph": "Ketika kita menempatkan stop order, kita meminta untuk membeli saham setelah mencapai titik harga tertentu. Atau menjual saham setelah diperoleh harga saham yang lebih rendah. Kita melakukan ini ketika kita melakukan suatu aktivitas atau bepergian dan mungkin tidak mengakses informasi harga saham menit atau detik. Kita dapat mengikuti strategi ketat yang memiliki harga masuk dan keluar langsung. Oleh karena itu, waktu dan durasi pesanan sangat penting untuk mengelola portofolio kita dengan sukses. Saat menempatkan batas pasar atau stop order kita, ada beberapa opsi durasi yang dapat kita tentukan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Yang pertama disebut pesanan harian. Pemesanan ini hanya berlaku untuk satu hari. Jika broker kita tidak dapat mengeksekusi Pesanan kita pada penutupan jam kerja, Pesanan kita secara otomatis dibatalkan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tipe kedua disebut Good Till Canceled atau GTC. Perintah GTC menunjukkan bahwa instruksi kita kepada broker kita terbuka yang tetap berlaku sampai dijalankan atau kita membatalkannya. Banyak broker menetapkan batas waktu atas (batas waktu tertinggi untuk eksekusi) untuk menghindari durasi GTC yang terlalu lama, yang dapat menjadi kontraproduktif."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tipe ketiga adalah Fill or Kill. Fill or Kill adalah perintah terbatas yang ingin segera dieksekusi jika memungkinkan. Jika broker tidak dapat memenuhi Pesanan kita, maka mereka akan segera membatalkan Pesanan."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Pesanan baru biasanya membatalkan pesanan sebelumnya untuk stok yang sama. Misalnya, kita mengeluarkan stop order dengan durasi order satu hari untuk broker kita."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kemudian kita memikirkan kembali keputusan kita dan mengonversi durasi ke GCD. Pesanan kita dibatalkan dan diganti dengan pesanan GDC baru."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Saat kita membuka akun broker, persyaratan margin minimum biasanya ditetapkan. Misalkan akun kita jatuh di bawah persyaratan minimum. Dalam hal ini, kita akan diberikan margin call, yang berarti kita akan diminta untuk menambahkan dana ke akun kita atau dipaksa untuk menjual saham kita pada nilai pasar saat ini, apakah kita mau atau. Jadi, kita harus mencoba untuk menjaga akun kita dengan persyaratan margin minimum setiap saat. Margin call bisa mahal karena bisa memaksa kita menjual saham dengan harga rendah dengan mengunci kerugian."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kabar baiknya adalah kita dapat memaksimalkan daya beli kita dengan menggunakan lebih sedikit uang untuk membeli lebih banyak saham. Kabar buruknya, kerugian kita juga maksimal karena kita memaksimalkan daya beli kita jika nilai saham kita turun."
+      }
+    ],
+    "6": [
+      {
+        "tag": "h1",
+        "heading": "Diversifikasi dan Manajemen Risiko: Cara Paling Dapat Diandalkan untuk Membuat Portofolio yang Sukses"
+      },
+      {
+        "tag": "p",
+        "paragraph": "Membangun portofolio saham itu mudah. Tetapi membangun portofolio yang sukses adalah sebuah tantangan. Investor sering kewalahan dengan banyaknya saham, lebih dari 100.000 saham diperdagangkan di bursa yang berbeda di seluruh dunia. Misalkan kita harus menavigasi melalui banyak saham, yang pada dasarnya adalah peluang investasi. Dalam hal ini, kita juga harus menavigasi melalui risiko, masalah waktu, dan banyak ketidakpastian lainnya. Membangun portofolio yang sukses adalah seni dan sedikit ilmu. Risiko, diversifikasi, dan reward adalah konsep terpenting yang perlu kita pahami sebelum memulai portofolio kita."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Beberapa faktor ikut bermain dalam semua keputusan investasi. Investor perlu belajar sedikit lebih banyak daripada definisi buku teks tentang faktor-faktor ini. Kita perlu memahami bagaimana mereka, bersama dengan waktu pasar dan siklus bisnis, mempengaruhi portofolio. Bahkan jika risiko dikelola dan dipahami dengan benar, itu dapat membantu portofolio kita. Ada berbagai tingkat risiko dan diversifikasi lebih lanjut."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Sederhananya, risiko adalah istilah yang digunakan untuk mendefinisikan volatilitas atau ketidakpastian hasil investasi kita. Jadi, ini biasanya berjalan seiring dengan keuntungan kita. Semakin banyak risiko yang kita ambil, lebih sering daripada tidak, semakin tinggi pengembalian yang diharapkan. Semakin rendah risiko yang kita ambil, semakin rendah risiko pengembalian."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tujuan investasi utama bagi semua investor adalah untuk meminimalkan risiko, dan diversifikasi adalah cara yang paling dapat diandalkan untuk melakukan hal ini. Diversifikasi berarti menyebarkan risiko sehingga semua resiko yang kita miliki tidak berada di tempat yang sama. Asuransi rumah atau mobil kita bekerja dengan cara yang hampir sama dengan menerapkan risiko individu di antara semua orang yang membayar premi asuransi mereka."
+      }
+    ],
+    "7": [
+      { "tag": "h1", "heading": "Diversifikasi Portofolio Investasi" },
+      {
+        "tag": "p",
+        "paragraph": "Cara pertama untuk mencapai diversifikasi adalah melalui saham asli. Ini tentu membantu untuk memiliki lebih dari satu saham dalam portofolio kita. Biasanya, dibutuhkan minimal 30 saham untuk memiliki portofolio yang sangat terdiversifikasi. Padahal, seseorang dapat terdiversifikasi dengan baik bahkan dengan portofolio hanya sepuluh saham asalkan sangat beragam."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Cara kedua di mana kita bisa mendapatkan diversifikasi adalah lintas industri. Berinvestasi di berbagai sektor menyebarkan risiko bahwa setiap perusahaan dapat mengalami penurunan yang parah. Jika kita berinvestasi hanya dalam satu industri, penurunan dalam industri itu akan mendatangkan malapetaka pada seluruh portofolio kita."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita juga dapat mencapai dan memperoleh diversifikasi dengan berinvestasi di seluruh kapitalisasi pasar. Kapitalisasi pasar adalah cara untuk mengidentifikasi dan mengklasifikasikan perusahaan berdasarkan ukuran nilai total saham publik mereka yang beredar. Biasanya, saham diklasifikasikan sebagai kapitalisasi besar atau kecil, bernilai lebih dari $10 miliar, kapitalisasi menengah, biasanya $1 hingga $10 miliar, dan kapitalisasi kecil, kurang dari $1 miliar."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita juga dapat memperoleh diversifikasi dengan berinvestasi di pasar global dan pasar berkembang. Harap dicatat bahwa pasar global bisa lebih berisiko daripada pasar maju. Tetapi mereka juga menawarkan pengembalian yang menarik."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita dapat mencapai diversifikasi dengan berinvestasi dalam logam mulia atau komoditas. Banyak investor berinvestasi pada logam mulia seperti emas dan perak untuk diversifikasi dan mitigasi risiko. Kita harus terbiasa dengan pergerakan harga historis logam mulia dan kondisi ekonomi global yang telah mendahului atau ada selama momen harga tersebut. Selain itu, logam mulia memiliki nilai yang melekat, bersama dengan harga pasar."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Kita bisa melakukan dollar-cost averaging (DCA), yang mengurangi risiko. Strategi DCA menentukan bahwa kita membeli blok yang lebih kecil dengan keamanan yang sama. Kita melakukan DCA untuk mendapatkan posisi investasi yang kita inginkan daripada melakukan pembelian sekaligus dalam jumlah besar. DCA seringkali memperhalus faktor biaya keamanan dan membantu kita mengelola perubahan harga pasar, baik naik maupun turun."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Hubungan antara varians dan pengembalian portofolio biasanya dinyatakan dengan menggunakan rasio Sharpe. Rasio Sharpe memungkinkan kita untuk menentukan kelebihan pengembalian atau imbalan yang kita dapatkan per unit risiko."
+      }
+    ],
+    "8": [
+      {
+        "tag": "h1",
+        "heading": "Dengan begitu banyak saham di luar sana, apa yang harus kita lakukan?"
+      },
+      {
+        "tag": "p",
+        "paragraph": "Dengan begitu banyak saham di luar sana, apa yang harus kita lakukan? Kita dapat menghabiskan ribuan jam membaca semua surat kabar secara global, semua situs web, blog keuangan, dan papan diskusi serta buletin di luar sana. Tapi itu pasti sakit kepala. Kita dapat mulai berinvestasi dengan menjaganya tetap cerdas dan sederhana, yang berarti berinvestasi pada apa yang kita ketahui berdasarkan seberapa banyak yang kita ketahui dapat memberikan pengembalian yang baik dan tingkat kenyamanan yang tinggi."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Berinvestasi dalam apa yang kita ketahui adalah strategi yang sempurna, strategi awal yang sangat baik, dan titik awal yang sangat baik. Namun, ini juga bisa menjadi strategi yang ideal dan bertahan lama daripada menjadi ahli dalam strategi investasi yang kompleks dalam semalam dan memperluas pengetahuan lokal kita."
+      }
+    ],
+    "9": [
+      { "tag": "h1", "heading": "Strategi Investing yang Baik" },
+      {
+        "tag": "p",
+        "paragraph": "Apa yang harus kita lakukan dengan saham yang sudah kita miliki? Jika saham kita baru-baru ini menghasilkan keuntungan, kita mungkin menikmati keuntungan kita atau menyalahkan diri kita sendiri karena tidak membeli lebih banyak (bahkan jika kita sudah kehilangan uang). Itu alami, jadi jangan khawatir. Apakah kita menghasilkan uang atau kehilangan uang, menjual saham sama pentingnya dengan keputusan investasi untuk membelinya. Jual beli sama pentingnya, dan kita harus memiliki strategi untuk memaksimalkan keuntungan kita dan meminimalkan kerugian kita."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Mengembangkan strategi trading yang baik sangat penting. Memiliki strategi sangat penting, bahkan jika itu adalah strategi yang cacat. Itu karena strategi akan selalu berkembang saat kita belajar dari kesuksesan dan kesalahan masa lalu, saat pasar berubah dan gaya kita berubah."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Karena perdagangan adalah bagian dari ilmu pengetahuan dan bagian dari seni, kita harus membuat beberapa aturan sendiri. Kita akan membuat banyak aturan sendiri saat kita tumbuh dan belajar. Namun, ini adalah beberapa aturan yang digunakan oleh pedagang investasi institusional yang sangat berpengalaman."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Aturan nomor satu adalah 'Cut your losses short and let your winners run'. Ketika kita mempelajari keterampilan baru, beberapa aturan praktis membantu kita membuat kemajuan pesat. Kedengarannya sederhana, tetapi banyak investor memiliki masalah yang sama yang menyebabkan mereka melakukan hal yang sebaliknya. Misalnya, jika seseorang mengalami kerugian, mungkin orang tersebut akan menunggu sampai saham tersebut kembali ke harga yang sama ketika dia menjualnya dan menjualnya ketika dia bisa mendapatkan semua uangnya kembali."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Aturan kedua adalah, jangan jatuh cinta dengan membeli saham tertentu, terutama yang merugi. Kita di sini bukan untuk amal."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Aturan ketiga adalah, jika investasi turun, jual tanpa penyesalan dan lanjutkan. Cara termudah untuk mengikuti aturan ini adalah dengan menempatkan stop-loss order pada saham kita segera setelah kita membelinya."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Aturan keempat adalah diversifikasi. Selalu diversifikasi portofolio kita menjadi setidaknya sepuluh saham. Dengan portofolio yang terdiversifikasi dengan benar, kita mungkin akan tersingkir oleh satu atau dua saham. Namun, mudah-mudahan, kita akan mendapat keuntungan dari saham lain."
+      }
+    ],
+    "10": [
+      { "tag": "h1", "heading": "Strategi Keluar" },
+      {
+        "tag": "p",
+        "paragraph": "Aturan nomor lima menyatakan bahwa kita tidak boleh jatuh cinta dengan saham apa pun dan memperhatikan puncak pasar. Hindari jatuh cinta dengan saham apapun karena pasar bisa terbalik. Meskipun kita mungkin menyukai saham tertentu, jutaan orang lain mungkin langsung tidak menyukai saham itu. Ada beberapa berita buruk yang datang, dan tingkat kepercayaan investor terhadap saham turun. Kita harus siap untuk mengakhiri hubungan investasi dengan saham tersebut ketika kondisi ini muncul. Tapi kita harus memutuskan investasi ini dengan setidaknya meminimalkan kerugian kita untuk melindungi nilai portofolio kita secara keseluruhan. Oleh karena itu, kita perlu mengembangkan strategi yang efektif."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Saat kita menjadi lebih berpengalaman, kita akan memiliki firasat ketika salah satu saham kita berada di puncak pasar. Ketika kita melihat saham hari demi hari, bulan demi bulan, kita akan merasakan ketika sebuah saham telah pergi terlalu jauh atau mungkin terlalu cepat dan perlu kembali (setidaknya turun sedikit)."
+      },
+      {
+        "tag": "p",
+        "paragraph": "'Suasana' pasar dapat dengan cepat berubah dari bull menjadi bear, yang dapat terjadi dengan cepat, yang membawa kita ke aturan nomor enam, yaitu menjual saham reli yang volumenya memudar. Jadi aturan nomor enam pada dasarnya adalah menjual saham-saham reli yang turun nilainya. Cobalah untuk tidak melewatkan indikator pasar teratas, karena kita mungkin kehilangan keuntungan yang telah kita capai. Jika kita berada di jalur yang bagus, kita tidak ingin cepat berubah dari serangan ke pertahanan jika kita bisa menghindarinya. Mengidentifikasi puncak pasar dapat menjadi komponen yang menguntungkan dari strategi pasar kita dalam jangka pendek dan panjang."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Akhirnya, aturan nomor tujuh adalah memiliki rencana keluar dan target untuk setiap saham. Hanya sedikit pedagang berpengalaman yang pernah berinvestasi dalam saham apa pun tanpa memiliki strategi keluar. Dalam bentuknya yang paling sederhana, strategi keluar berarti merencanakan kapan dan bagaimana menjual bahkan sebelum kita berinvestasi. Pahami tujuan kita, tetapkan batas nilai pasar pada sisi positif dan negatifnya, dan miliki rencana tindakan yang memungkinkan kita untuk keluar dengan sukses."
+      },
+      {
+        "tag": "p",
+        "paragraph": "Tiga pertimbangan biasanya menentukan strategi keluar kita. Pertama, berapa lama kita berencana untuk memiliki sekuritas? Kita harus mengetahui periode yang ingin kita investasikan, apakah kita suka jangka pendek atau jangka panjang. Jika keadaan berubah, kita selalu dapat mengubah rencana awal kita dan memperpendek atau memperpanjang kepemilikan target kita. Kedua, tingkat risiko apa yang akan kita asumsikan? Idealnya, risiko nol akan menjadi signifikan. Risiko nol akan bagus, tetapi itu tidak mungkin. Jadi akan lebih baik jika kita memutuskan seberapa banyak risiko yang kita rasakan dan seberapa banyak kita akan kehilangan, yang mungkin tampak seperti target yang bergerak. Namun, kita harus menetapkan parameter risiko meskipun kita salah. Membiasakan mencatat risiko akan membantu tingkat keberhasilan. Namun, melindungi nilai-nilai kita harus berada di bagian atas daftar periksa strategi keluar kita. Akhirnya, strategi keluar yang baik adalah dengan tetap berpegang pada aturan nomor satu 'Cut your losses short and let your winners run'."
+      },
+      { "tag": "p", "paragraph": "" }
+    ]
+  }
+}

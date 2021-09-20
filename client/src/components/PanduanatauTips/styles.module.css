@@ -1,0 +1,103 @@
+.body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 764px;
+  padding: 10px 0;
+  width: 1180px;
+}
+.title {
+  letter-spacing: 0;
+  min-height: 28px;
+}
+.text_1 {
+  letter-spacing: 0;
+  min-height: 126px;
+}
+.line_3 {
+  height: 1px;
+  margin-top: 9px;
+  width: 1078px;
+}
+.text_2 {
+  letter-spacing: 0;
+  min-height: 28px;
+}
+.text_3 {
+  letter-spacing: 0;
+  text-align: justify;
+  width: 1088px;
+}
+.place {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 20px;
+  min-height: 32px;
+  white-space: nowrap;
+}
+.line {
+  height: 1px;
+  margin-top: 9px;
+  width: 293px;
+}
+.place_1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+.premium {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: 20px;
+  min-height: 32px;
+  white-space: nowrap;
+}
+.overlap_group {
+  height: 28px;
+  position: relative;
+  width: 186px;
+}
+.overlap_group1 {
+  height: 28px;
+  position: relative;
+  width: 199px;
+}
+.overlap_group2 {
+  height: 28px;
+  position: relative;
+  width: 206px;
+}
+.dibuat_dengan_cinta {
+  align-items: center;
+  display: flex;
+  height: 41px;
+  margin-top: 9px;
+  padding: 0 8px;
+  width: 258px;
+}
+.text_7 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  min-height: 21px;
+  min-width: 240px;
+}
+.love {
+  color: red;
+}
+
+.submit {
+  background-color: var(--yellow);
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  padding: 6px 25px;
+  width: 120px;
+  align-items: center;
+}
+
+.nextprev {
+  display: flex;
+  justify-content: space-between;
+}

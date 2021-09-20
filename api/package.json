@@ -1,0 +1,24 @@
+{
+  "name": "veiligvoel",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "create-hmac": "1.1.7",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.0.2",
+    "morgan": "~1.9.1",
+    "passport": "0.4.1",
+    "passport-jwt": "4.0.0",
+    "passport-local": "1.0.0",
+    "passport-local-mongoose": "6.1.0",
+    "universal-base64url": "1.1.0"
+  }
+}

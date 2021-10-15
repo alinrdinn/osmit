@@ -1,7 +1,6 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import Axios from "axios";
-import "./globals.css";
-import "./styles.css";
+import "./styles.min.css";
 import {
   Switch,
   BrowserRouter as Router,
@@ -9,14 +8,33 @@ import {
   Redirect
 } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Masuk from "./components/Masuk";
-import Beranda from "./components/Beranda";
-import KonfigurasiAkun from "./components/KonfigurasiAkun";
-import TentangKamidanHarga from "./components/TentangKamidanHarga";
-import PanduanataTips from "./components/PanduanatauTips";
-import Simulasi from "./components/Simulasi";
+const Navbar = lazy(() => import("./components/Navbar"));
+const Home = lazy(() => import("./components/Home"));
+const Dashboard = lazy(() => import("./components/Dashboard"));
+const AccountConf = lazy(() => import("./components/AccountConf"));
+const AboutUsandPrice = lazy(() => import("./components/AboutUsandPrice"));
+const Guide = lazy(() => import("./components/Guide"));
+const Simulasi = lazy(() => import("./components/Simulasi"));
 const config = require("./components/config");
+
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <p>Loading failed! Please reload.</p>;
+    }
+
+    return this.props.children;
+  }
+}
 
 class App extends React.Component {
   constructor(props) {
@@ -27,7 +45,7 @@ class App extends React.Component {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     if (this.state.authenticated) {
       Axios.get(config.api_url + "/users/data", {
         headers: { Authorization: "Bearer " + localStorage.getItem("token") }
@@ -64,40 +82,42 @@ class App extends React.Component {
       />
     );
     return (
-      <Router>
-        <div className="container-center-horizontal">
-          <div className="masuk screen">
-            <Navbar {...this.state} />
-            <Switch>
-              <PrivateRoute
-                exact
-                path="/simulasi/:id"
-                component={() => <Simulasi />}
-              />
-              <PrivateRoute
-                exact
-                path="/panduanatautips/:id"
-                component={() => <PanduanataTips />}
-              />
-              <Route path="/tentangkamidanharga">
-                <TentangKamidanHarga />
-              </Route>
-              <PrivateRoute
-                exact
-                path="/konfigurasiakun"
-                component={() => <KonfigurasiAkun {...this.state} />}
-              />
-              <Route path="/">
-                {this.state.authenticated ? (
-                  <Beranda {...this.state.user_data} />
-                ) : (
-                  <Masuk />
-                )}
-              </Route>
-            </Switch>
-          </div>
-        </div>
-      </Router>
+      <div className="css-h47494">
+        <Router>
+          <ErrorBoundary>
+            <Suspense fallback={<div>Loading...</div>}>
+              <Navbar {...this.state} />
+              <Switch>
+                <PrivateRoute
+                  exact
+                  path="/simulation/:id"
+                  component={() => <Simulasi />}
+                />
+                <PrivateRoute
+                  exact
+                  path="/guide/:id"
+                  component={() => <Guide />}
+                />
+                <PrivateRoute
+                  exact
+                  path="/konfigurasiakun"
+                  component={() => <AccountConf {...this.state} />}
+                />
+                <Route path="/aboutus">
+                  <AboutUsandPrice />
+                </Route>
+                <Route path="/">
+                  {this.state.authenticated ? (
+                    <Dashboard {...this.state.user_data} />
+                  ) : (
+                    <Home />
+                  )}
+                </Route>
+              </Switch>
+            </Suspense>
+          </ErrorBoundary>
+        </Router>
+      </div>
     );
   }
 }

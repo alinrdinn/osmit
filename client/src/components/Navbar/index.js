@@ -1,99 +1,91 @@
 import React from "react";
-import styles from "./styles.module.css";
-import Axios from "axios";
-const config = require("../config");
 class Navbar extends React.Component {
   render() {
     return (
-      <div className={styles.navbar}>
-        <Logo />
+      <div className="builder-block css-1ajtaqb">
+        <div className="builder-block css-bcw198">
+          <div className=" css-4hjrt3">
+            <img
+              alt="logo"
+              loading="lazy"
+              className=" css-1hbf805"
+              src="assets/logo@2x.svg"
+            />
+          </div>
+        </div>
         {this.props.authenticated ? (
-          <NavigationLogin {...{ user_data: this.props.user_data }} />
+          <Login {...{ user_data: this.props.user_data }} />
         ) : (
-          <NavigationTidakLogin />
+          <NotLogin />
         )}
       </div>
     );
   }
 }
 
-class Logo extends React.Component {
-  render() {
-    return (
-      <a href="/">
-        <img className="logo" src="assets/logo@2x.svg" />
-      </a>
-    );
-  }
-}
-
-class NavigationLogin extends React.Component {
+class Login extends React.Component {
   constructor(props) {
     super(props);
     this.logout = this.logout.bind(this);
   }
   logout(event) {
-    event.preventDefault();
-    Axios.get(config.api_url + "/users/logout", {
-      headers: { Authorization: "Bearer " + localStorage.getItem("token") }
-    })
-      .then((res) => {
-        localStorage.clear();
-        window.location.reload();
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+    localStorage.clear();
+    window.location.reload();
   }
   render() {
     return (
-      <div className={styles.navigation}>
-        <div
-          className={`${styles.text_3} valign-text-middle roboto-normal-black-14px`}
-        >
-          {this.props.user_data.premium
-            ? this.props.user_data.premium.status
-              ? "PREMIUM"
-              : "GRATIS"
-            : null}
+      <div className="builder-block css-14i0vld">
+        <div className="builder-columns css-1840m1q">
+          <div className="builder-column css-7was6r">
+            <div className="builder-blocks css-h47494">
+              <div className="builder-block css-12cj89e">
+                <span className="builder-block css-wkjvb4">
+                  <span className="builder-text css-1qggkls">
+                    {this.props.user_data.premium
+                      ? this.props.user_data.premium.status
+                        ? "PREMIUM"
+                        : "GRATIS"
+                      : null}
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="builder-column css-7was6r">
+            <div className="builder-blocks css-h47494">
+              <button className="builder-block css-1mnwerk">
+                <a
+                  className="builder-block  css-dvd2j0"
+                  href="/konfigurasiakun"
+                >
+                  <span className="builder-text css-1qggkls">KONF. AKUN</span>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="builder-column css-7was6r">
+            <div className="builder-blocks css-h47494">
+              <button className="builder-block css-1mnwerk">
+                <a className="builder-block  css-dvd2j0" onClick={this.logout}>
+                  <span className="builder-text css-1qggkls">KELUAR</span>
+                </a>
+              </button>
+            </div>
+          </div>
         </div>
-        <a href="/konfigurasiakun">
-          <div className={`${styles.about_us} border-1px-black`}>
-            <div
-              className={`${styles.text_1} valign-text-middle roboto-normal-black-14px`}
-            >
-              KONFIGURASI AKUN
-            </div>
-          </div>
-        </a>
-        <a onClick={this.logout} href="">
-          <div className={`${styles.pricing} border-1px-black`}>
-            <div
-              className={`${styles.text_2} valign-text-middle roboto-normal-black-14px`}
-            >
-              KELUAR
-            </div>
-          </div>
-        </a>
       </div>
     );
   }
 }
 
-class NavigationTidakLogin extends React.Component {
+class NotLogin extends React.Component {
   render() {
     return (
-      <div className={styles.navigation}>
-        <a href="/tentangkamidanharga">
-          <div className={`${styles.about_us} border-1px-black`}>
-            <div
-              className={`${styles.text_1} valign-text-middle roboto-normal-black-14px`}
-            >
-              TENTANG KAMI & HARGA
-            </div>
-          </div>
+      <button className="builder-block css-1mnwerk">
+        <a className="builder-block  css-dvd2j0" href="/aboutus">
+          <span className="builder-text css-1qggkls">HARGA &amp; KAMI</span>
         </a>
-      </div>
+      </button>
     );
   }
 }

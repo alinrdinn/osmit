@@ -77,7 +77,7 @@ const Stock = ({ data }) => {
         temp.push({ x: data[index].x, y: data[index].y });
         myChart.data.datasets[0].data = temp;
         myChart.update();
-      }, 10000 * index);
+      }, 5000 * index);
     }
   }, [data, myChart]);
 
@@ -85,24 +85,53 @@ const Stock = ({ data }) => {
     event.preventDefault();
     setStockInput((prevState) => ({
       ...prevState,
-      [event.target.name]: parseInt(event.target.value)
+      [event.target.name]: parseInt(event.target.value, 10)
     }));
   };
 
   return (
-    <>
-      <div className={styles.simulasi}>
-        <div>
-          <canvas ref={chartRef} id="myChart" width="600" height="400" />
-        </div>
-        <form>
-          <div className={styles.password}>
-            <div className={`roboto-normal-black-18px`}>Beli</div>
-            <div>
+    <div class="builder-block css-h6kvej">
+      <div class="builder-block css-1xcng19">
+        <canvas
+          class="builder-block builder-canvas css-12dm0k"
+          ref={chartRef}
+          id="myChart"
+        ></canvas>
+        <div class="builder-block css-awle9n">
+          <div class="builder-block css-euewnx">
+            <h1 class="builder-block  css-mwga5u">
+              <span class="builder-text css-1qggkls">Aset yang dimiliki</span>
+            </h1>
+            <span class="builder-block css-gmszm9">
+              <span class="builder-text css-1qggkls">Uang: {assets.money}</span>
+            </span>
+            <span class="builder-block css-gmszm9">
+              <span class="builder-text css-1qggkls">
+                Saham: {assets.stock}
+              </span>
+            </span>
+            <span class="builder-block css-gmszm9">
+              <span class="builder-text css-1qggkls">
+                Total aset: {assets.total_aset}
+              </span>
+            </span>
+          </div>
+          <div class="builder-block css-euewnx">
+            <h1 class="builder-block  css-mwga5u">
+              <span class="builder-text css-1qggkls">Info Saham Kemarin</span>
+            </h1>
+            <span class="builder-block css-gmszm9">
+              <span class="builder-text css-1qggkls">Harga: {lastStock}</span>
+            </span>
+          </div>
+          <div class="builder-block css-1wckx14">
+            <div class="builder-block css-e42lb">
+              <label class="builder-block css-gy6hil">
+                <span class="builder-text css-1qggkls">Beli</span>
+              </label>
               <input
-                className={`${styles.masukkan_password} roboto-normal-limed-spruce-18px ${styles.rectangle} border-1px-mountain-mist`}
+                class="builder-block css-wjk3sb"
                 name="buy"
-                placeholder="..."
                 type="number"
                 step="1"
                 min="0"
@@ -110,16 +139,13 @@ const Stock = ({ data }) => {
                 onChange={changeHandler}
               />
             </div>
-          </div>
-          <div className={styles.password}>
-            <div className={`${styles.password_1} roboto-normal-black-18px`}>
-              Jual
-            </div>
-            <div className={styles.overlap_group1}>
+            <div class="builder-block css-k2py9l">
+              <label class="builder-block css-gy6hil">
+                <span class="builder-text css-1qggkls">Jual</span>
+              </label>
               <input
-                className={`${styles.masukkan_password} roboto-normal-limed-spruce-18px ${styles.rectangle} border-1px-mountain-mist`}
+                class="builder-block css-wjk3sb"
                 name="sell"
-                placeholder="..."
                 type="number"
                 step="1"
                 min="0"
@@ -128,27 +154,21 @@ const Stock = ({ data }) => {
               />
             </div>
           </div>
-          <h1 className={`${styles.title} roboto-bold-black-24px`}>
-            Aset yang dimiliki
-          </h1>
-          <p className={`${styles.text_3} roboto-normal-black-18px`}>
-            Uang: {assets.money}
-          </p>
-          <p className={`${styles.text_3} roboto-normal-black-18px`}>
-            Saham: {assets.stock}
-          </p>
-          <p className={`${styles.text_3} roboto-normal-black-18px`}>
-            Total Aset: {assets.total_aset}
-          </p>
-        </form>
+        </div>
       </div>
-      <h1 className={`${styles.title} roboto-bold-black-24px`}>
-        {today ? "Hari ini " + today.x : "Simulasi Berakhir"}
-      </h1>
-      <p className={`${styles.text_3} roboto-normal-black-18px`}>
-        {today ? (today.Berita === "" ? "Tidak Ada" : today.Berita) : null}
-      </p>
-    </>
+      <div class="builder-block css-10qcwwg">
+        <h1 class="builder-block  css-mwga5u">
+          <span class="builder-text css-1qggkls">
+            {today ? "Hari ini " + today.x : "Simulasi Berakhir"}
+          </span>
+        </h1>
+        <p class="builder-block css-gmszm9">
+          <span class="builder-text css-1qggkls">
+            {today ? (today.Berita === "" ? "Tidak Ada" : today.Berita) : null}
+          </span>
+        </p>
+      </div>
+    </div>
   );
 };
 
@@ -170,7 +190,7 @@ const Simulasi = () => {
         setRes({ success: false });
         console.log(err);
       });
-  }, [res]);
+  }, [params, res]);
 
   const mulai = () => {
     setStarted(true);
@@ -178,37 +198,46 @@ const Simulasi = () => {
 
   return (
     <>
-      <div className={styles.body}>
-        {res.success ? (
-          started ? (
-            <Stock data={res.data} />
-          ) : (
-            <>
-              <p className={`${styles.text_3} roboto-normal-black-18px`}>
-                Kali ini, kamu akan diberkan aset artifisial sebesar Rp
-                1.000.000 untuk melakukan trading. Kamu harus membesarkan aset
-                ini menjadi lebih banyak. Kamu dapat dikatakan berhasil, jika
-                aset kamu bertambah (yang asalnya Rp 1.000.0000 menjadi lebih
-                besar). Jika tidak, kamu harus belajar lagi. Perlu diingat,
-                transaksi jual beli akan diproses untuk hari ke-3 dan seterusnya
-                (dengan kata lain, transkasi hari ke-1/untuk hari ke-2 tidak
-                akan diproses). Tekan tombol di bawah ini untuk mulai melakukan
-                simulasi trading.
+      {res.success ? (
+        started ? (
+          <Stock data={res.data} />
+        ) : (
+          <div class="builder-block css-h6kvej">
+            <div class="builder-block css-10qcwwg">
+              <h1 class="builder-block  css-mwga5u">
+                <span class="builder-text css-1qggkls">Simulasi (Panduan)</span>
+              </h1>
+              <p class="builder-block css-gmszm9">
+                <span class="builder-text css-1qggkls">
+                  Kali ini, kamu akan diberkan aset artifisial sebesar Rp
+                  1.000.000 untuk melakukan trading. Kamu harus membesarkan aset
+                  ini menjadi lebih banyak. Kamu dapat dikatakan berhasil, jika
+                  aset kamu bertambah (yang asalnya Rp 1.000.0000 menjadi lebih
+                  besar). Jika tidak, kamu harus belajar lagi. Perlu diingat,
+                  transaksi jual beli akan diproses untuk hari ke-3 dan
+                  seterusnya (dengan kata lain, transkasi hari ke-1/untuk hari
+                  ke-2 tidak akan diproses). Tekan tombol di bawah ini untuk
+                  mulai melakukan simulasi trading.
+                </span>
               </p>
-              <button
-                onClick={mulai}
-                className={`${styles.submit} ${styles.ganti} valign-text-middle roboto-normal-black-14px border-1px-black`}
-              >
-                Selanjutnya
+              <button class="builder-block css-fwoxf8">
+                <span class="builder-block css-dvd2j0">
+                  <span class="builder-text css-1qggkls" onClick={mulai}>
+                    LANJUT
+                  </span>
+                </span>
               </button>
-            </>
-          )
-        ) : null}
-        <div className={styles.dibuat_dengan_cinta}>
-          <div className={`${styles.text_7} roboto-normal-black-18px`}>
-            Dibuat dengan <span className={styles.love}>❤</span> di Ciwaruga
+            </div>
           </div>
-        </div>
+        )
+      ) : null}
+      <div class="builder-block css-1y9pq1n"></div>
+      <div class="builder-block css-1xbb6o8">
+        <span class="builder-block css-1xodsls">
+          <span class="builder-text css-1qggkls">
+            Dibuat dengan ❤ di Ciwaruga
+          </span>
+        </span>
       </div>
     </>
   );

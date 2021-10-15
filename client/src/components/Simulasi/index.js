@@ -77,7 +77,7 @@ const Stock = ({ data }) => {
         temp.push({ x: data[index].x, y: data[index].y });
         myChart.data.datasets[0].data = temp;
         myChart.update();
-      }, 1000 * index);
+      }, 10000 * index);
     }
   }, [data, myChart]);
 
